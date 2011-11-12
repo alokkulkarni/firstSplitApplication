@@ -43,24 +43,24 @@
 		54D452141453F39300AA898B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54D452161453F39300AA898B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		54D452181453F39300AA898B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		54D4521C1453F39300AA898B /* firstSplitApplication-Info.plist */ = {isa = PBXFileReference; path = "firstSplitApplication-Info.plist"; sourceTree = "<group>"; };
+		54D4521C1453F39300AA898B /* firstSplitApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "firstSplitApplication-Info.plist"; sourceTree = "<group>"; };
 		54D4521E1453F39300AA898B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54D452201453F39300AA898B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		54D452221453F39300AA898B /* firstSplitApplication-Prefix.pch */ = {isa = PBXFileReference; path = "firstSplitApplication-Prefix.pch"; sourceTree = "<group>"; };
-		54D452231453F39300AA898B /* storyboardTestAppDelegate.h */ = {isa = PBXFileReference; path = storyboardTestAppDelegate.h; sourceTree = "<group>"; };
+		54D452221453F39300AA898B /* firstSplitApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "firstSplitApplication-Prefix.pch"; sourceTree = "<group>"; };
+		54D452231453F39300AA898B /* storyboardTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = storyboardTestAppDelegate.h; sourceTree = "<group>"; };
 		54D452241453F39300AA898B /* storyboardTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storyboardTestAppDelegate.m; sourceTree = "<group>"; };
 		54D452271453F39300AA898B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		54D4522A1453F39300AA898B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		54D4522D1453F39300AA898B /* firstSplitApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = firstSplitApplication.xcdatamodel; sourceTree = "<group>"; };
-		54D4522F1453F39300AA898B /* storyboardTestMasterViewController.h */ = {isa = PBXFileReference; path = storyboardTestMasterViewController.h; sourceTree = "<group>"; };
+		54D4522F1453F39300AA898B /* storyboardTestMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = storyboardTestMasterViewController.h; sourceTree = "<group>"; };
 		54D452301453F39300AA898B /* storyboardTestMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storyboardTestMasterViewController.m; sourceTree = "<group>"; };
-		54D452321453F39300AA898B /* storyboardTestDetailViewController.h */ = {isa = PBXFileReference; path = storyboardTestDetailViewController.h; sourceTree = "<group>"; };
+		54D452321453F39300AA898B /* storyboardTestDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = storyboardTestDetailViewController.h; sourceTree = "<group>"; };
 		54D452331453F39300AA898B /* storyboardTestDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storyboardTestDetailViewController.m; sourceTree = "<group>"; };
 		54D4523A1453F39300AA898B /* firstSplitApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstSplitApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D4523B1453F39300AA898B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		54D452441453F39300AA898B /* firstSplitApplicationTests-Info.plist */ = {isa = PBXFileReference; path = "firstSplitApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		54D452441453F39300AA898B /* firstSplitApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "firstSplitApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		54D452461453F39300AA898B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		54D452481453F39300AA898B /* firstSplitApplicationTests.h */ = {isa = PBXFileReference; path = firstSplitApplicationTests.h; sourceTree = "<group>"; };
+		54D452481453F39300AA898B /* firstSplitApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstSplitApplicationTests.h; sourceTree = "<group>"; };
 		54D452491453F39300AA898B /* firstSplitApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstSplitApplicationTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

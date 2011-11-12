@@ -43,8 +43,12 @@
 	// Do any additional setup after loading the view, typically from a nib.
     self.detailViewController = (storyboardTestDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     // Set up the edit and add buttons.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
-
+    //   self.navigationItem.leftBarButtonItem = self.editButtonItem;
+    
+    UIBarButtonItem *back = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemPageCurl target:self action:@selector(insertNewObject)];
+    
+    self.navigationItem.backBarButtonItem = back;
+    
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject)];
     self.navigationItem.rightBarButtonItem = addButton;
 }
